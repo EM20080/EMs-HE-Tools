@@ -1,0 +1,2 @@
+for %%f in (*.anm.hkx) do (set "base=%%~nf" & setlocal enabledelayedexpansion & set "base=!base:.anm=!" & if exist "!base!.model" if exist "!base!.skl.hkx" (echo Exporting !base!... & modelfbx "!base!.model" "!base!.skl.hkx" "%%f" "!base!.fbx") & endlocal)
+pause

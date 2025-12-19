@@ -1,0 +1,2 @@
+export-skl-anm.bat and convertskl.bat Needs HavokAnimationExporter (any version for whatever gamne you want exported!)
+convert-anim-properly.bat is used to fix sonics anims when importing in to blender, it also needs HavokAnimationExporter.
