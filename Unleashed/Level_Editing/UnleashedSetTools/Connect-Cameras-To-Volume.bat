@@ -1,0 +1,1 @@
+for %%f in ("source/*.xml") do ConnectSUCamera source/%%f output/%%f
